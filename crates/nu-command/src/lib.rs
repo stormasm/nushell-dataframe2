@@ -60,8 +60,7 @@ pub use viewers::*;
 //mod dataframe;
 
 #[cfg(feature = "dataframe")]
-pub use dataframe::*;
-
+//pub use dataframe::*;
 #[cfg(feature = "database")]
 mod database;
 
