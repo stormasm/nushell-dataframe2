@@ -2602,6 +2602,7 @@ dependencies = [
  "notify",
  "nu-ansi-term",
  "nu-color-config",
+ "nu-command-dataframe",
  "nu-engine",
  "nu-glob",
  "nu-json",

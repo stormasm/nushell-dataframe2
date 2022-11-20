@@ -56,8 +56,8 @@ pub use strings::*;
 pub use system::*;
 pub use viewers::*;
 
-#[cfg(feature = "dataframe")]
-mod dataframe;
+//#[cfg(feature = "dataframe")]
+//mod dataframe;
 
 #[cfg(feature = "dataframe")]
 pub use dataframe::*;

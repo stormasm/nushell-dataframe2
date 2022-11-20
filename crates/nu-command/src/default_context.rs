@@ -1,6 +1,7 @@
 use nu_protocol::engine::{EngineState, StateWorkingSet};
 
 use crate::*;
+use nu_command_dataframe::*;
 
 pub fn create_default_context() -> EngineState {
     let mut engine_state = EngineState::new();
@@ -18,7 +19,7 @@ pub fn create_default_context() -> EngineState {
         // they have to be registered before the main declarations. This helps to make
         // them only accessible if the correct input value category is used with the
         // declaration
-        #[cfg(feature = "dataframe")]
+        // #[cfg(feature = "dataframe")]
         add_dataframe_decls(&mut working_set);
 
         // Database-related
