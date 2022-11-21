@@ -1,7 +1,8 @@
 use nu_protocol::engine::{EngineState, StateWorkingSet};
 
 use crate::*;
-use nu_command_dataframe::*;
+use nu_command_dataframe::add_dataframe_decls;
+//use nu_command_dataframe::*;
 
 pub fn create_default_context() -> EngineState {
     let mut engine_state = EngineState::new();
