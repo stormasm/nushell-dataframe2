@@ -326,7 +326,7 @@ fn action(input: &Value, args: &Arguments, head: Span) -> Value {
 #[cfg(test)]
 mod tests {
     use super::*;
-    use super::{action, DatetimeFormat, SubCommand, Zone};
+    use super::{action, DatetimeFormat, Zone};
     use nu_protocol::Type::Error;
     /*
         #[test]
