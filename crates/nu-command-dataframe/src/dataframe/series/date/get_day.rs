@@ -81,9 +81,10 @@ fn command(
 
 #[cfg(test)]
 mod test {
-    use super::super::super::super::super::IntoDatetime;
+    //use super::super::super::super::super::IntoDatetime;
     use super::super::super::super::test_dataframe::test_dataframe;
     use super::*;
+    use crate::conversions::into::datetime::IntoDatetime;
 
     #[test]
     fn test_examples() {

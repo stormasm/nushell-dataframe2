@@ -483,6 +483,7 @@ pub(crate) fn generate_strftime_list(head: Span, show_parse_only_formats: bool) 
     }
 }
 
+/*
 #[cfg(test)]
 mod test {
     use super::*;
@@ -494,3 +495,4 @@ mod test {
         test_examples(SubCommand {})
     }
 }
+*/
